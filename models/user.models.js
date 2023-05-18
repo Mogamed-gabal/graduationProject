@@ -13,7 +13,7 @@ const schema=mongoose.Schema({
     newPassword:String,
     role:{
         type:String,
-        default:user
+        default:'user'
     },
     verfied:{
         type:Boolean,
